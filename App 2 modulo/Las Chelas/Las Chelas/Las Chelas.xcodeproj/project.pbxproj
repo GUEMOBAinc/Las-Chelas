@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A712161215C664100EF3D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A712160215C664100EF3D28 /* AppDelegate.swift */; };
+		3A712163215C664100EF3D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A712162215C664100EF3D28 /* ViewController.swift */; };
+		3A712166215C664100EF3D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A712164215C664100EF3D28 /* Main.storyboard */; };
+		3A712169215C664100EF3D28 /* Las_Chelas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A712167215C664100EF3D28 /* Las_Chelas.xcdatamodeld */; };
+		3A71216B215C664300EF3D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A71216A215C664300EF3D28 /* Assets.xcassets */; };
+		3A71216E215C664300EF3D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A71216C215C664300EF3D28 /* LaunchScreen.storyboard */; };
+		3A712179215C664300EF3D28 /* Las_ChelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A712178215C664300EF3D28 /* Las_ChelasTests.swift */; };
+		3A712184215C664300EF3D28 /* Las_ChelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A712183215C664300EF3D28 /* Las_ChelasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A712175215C664300EF3D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A712155215C664100EF3D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A71215C215C664100EF3D28;
+			remoteInfo = "Las Chelas";
+		};
+		3A712180215C664300EF3D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A712155215C664100EF3D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A71215C215C664100EF3D28;
+			remoteInfo = "Las Chelas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A71215D215C664100EF3D28 /* Las Chelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Las Chelas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A712160215C664100EF3D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A712162215C664100EF3D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A712165215C664100EF3D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A712168215C664100EF3D28 /* Las_Chelas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Las_Chelas.xcdatamodel; sourceTree = "<group>"; };
+		3A71216A215C664300EF3D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A71216D215C664300EF3D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A71216F215C664300EF3D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A712174215C664300EF3D28 /* Las ChelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Las ChelasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A712178215C664300EF3D28 /* Las_ChelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Las_ChelasTests.swift; sourceTree = "<group>"; };
+		3A71217A215C664300EF3D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A71217F215C664300EF3D28 /* Las ChelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Las ChelasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A712183215C664300EF3D28 /* Las_ChelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Las_ChelasUITests.swift; sourceTree = "<group>"; };
+		3A712185215C664300EF3D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A71215A215C664100EF3D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A712171215C664300EF3D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71217C215C664300EF3D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A712154215C664100EF3D28 = {
+			isa = PBXGroup;
+			children = (
+				3A71215F215C664100EF3D28 /* Las Chelas */,
+				3A712177215C664300EF3D28 /* Las ChelasTests */,
+				3A712182215C664300EF3D28 /* Las ChelasUITests */,
+				3A71215E215C664100EF3D28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A71215E215C664100EF3D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A71215D215C664100EF3D28 /* Las Chelas.app */,
+				3A712174215C664300EF3D28 /* Las ChelasTests.xctest */,
+				3A71217F215C664300EF3D28 /* Las ChelasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A71215F215C664100EF3D28 /* Las Chelas */ = {
+			isa = PBXGroup;
+			children = (
+				3A712160215C664100EF3D28 /* AppDelegate.swift */,
+				3A712162215C664100EF3D28 /* ViewController.swift */,
+				3A712164215C664100EF3D28 /* Main.storyboard */,
+				3A71216A215C664300EF3D28 /* Assets.xcassets */,
+				3A71216C215C664300EF3D28 /* LaunchScreen.storyboard */,
+				3A71216F215C664300EF3D28 /* Info.plist */,
+				3A712167215C664100EF3D28 /* Las_Chelas.xcdatamodeld */,
+			);
+			path = "Las Chelas";
+			sourceTree = "<group>";
+		};
+		3A712177215C664300EF3D28 /* Las ChelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A712178215C664300EF3D28 /* Las_ChelasTests.swift */,
+				3A71217A215C664300EF3D28 /* Info.plist */,
+			);
+			path = "Las ChelasTests";
+			sourceTree = "<group>";
+		};
+		3A712182215C664300EF3D28 /* Las ChelasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A712183215C664300EF3D28 /* Las_ChelasUITests.swift */,
+				3A712185215C664300EF3D28 /* Info.plist */,
+			);
+			path = "Las ChelasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A71215C215C664100EF3D28 /* Las Chelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A712188215C664300EF3D28 /* Build configuration list for PBXNativeTarget "Las Chelas" */;
+			buildPhases = (
+				3A712159215C664100EF3D28 /* Sources */,
+				3A71215A215C664100EF3D28 /* Frameworks */,
+				3A71215B215C664100EF3D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Las Chelas";
+			productName = "Las Chelas";
+			productReference = 3A71215D215C664100EF3D28 /* Las Chelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A712173215C664300EF3D28 /* Las ChelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A71218B215C664300EF3D28 /* Build configuration list for PBXNativeTarget "Las ChelasTests" */;
+			buildPhases = (
+				3A712170215C664300EF3D28 /* Sources */,
+				3A712171215C664300EF3D28 /* Frameworks */,
+				3A712172215C664300EF3D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A712176215C664300EF3D28 /* PBXTargetDependency */,
+			);
+			name = "Las ChelasTests";
+			productName = "Las ChelasTests";
+			productReference = 3A712174215C664300EF3D28 /* Las ChelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A71217E215C664300EF3D28 /* Las ChelasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A71218E215C664300EF3D28 /* Build configuration list for PBXNativeTarget "Las ChelasUITests" */;
+			buildPhases = (
+				3A71217B215C664300EF3D28 /* Sources */,
+				3A71217C215C664300EF3D28 /* Frameworks */,
+				3A71217D215C664300EF3D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A712181215C664300EF3D28 /* PBXTargetDependency */,
+			);
+			name = "Las ChelasUITests";
+			productName = "Las ChelasUITests";
+			productReference = 3A71217F215C664300EF3D28 /* Las ChelasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A712155215C664100EF3D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Adrian;
+				TargetAttributes = {
+					3A71215C215C664100EF3D28 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					3A712173215C664300EF3D28 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 3A71215C215C664100EF3D28;
+					};
+					3A71217E215C664300EF3D28 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 3A71215C215C664100EF3D28;
+					};
+				};
+			};
+			buildConfigurationList = 3A712158215C664100EF3D28 /* Build configuration list for PBXProject "Las Chelas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A712154215C664100EF3D28;
+			productRefGroup = 3A71215E215C664100EF3D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A71215C215C664100EF3D28 /* Las Chelas */,
+				3A712173215C664300EF3D28 /* Las ChelasTests */,
+				3A71217E215C664300EF3D28 /* Las ChelasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A71215B215C664100EF3D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A71216E215C664300EF3D28 /* LaunchScreen.storyboard in Resources */,
+				3A71216B215C664300EF3D28 /* Assets.xcassets in Resources */,
+				3A712166215C664100EF3D28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A712172215C664300EF3D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71217D215C664300EF3D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A712159215C664100EF3D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A712163215C664100EF3D28 /* ViewController.swift in Sources */,
+				3A712161215C664100EF3D28 /* AppDelegate.swift in Sources */,
+				3A712169215C664100EF3D28 /* Las_Chelas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A712170215C664300EF3D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A712179215C664300EF3D28 /* Las_ChelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A71217B215C664300EF3D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A712184215C664300EF3D28 /* Las_ChelasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A712176215C664300EF3D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A71215C215C664100EF3D28 /* Las Chelas */;
+			targetProxy = 3A712175215C664300EF3D28 /* PBXContainerItemProxy */;
+		};
+		3A712181215C664300EF3D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A71215C215C664100EF3D28 /* Las Chelas */;
+			targetProxy = 3A712180215C664300EF3D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A712164215C664100EF3D28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A712165215C664100EF3D28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A71216C215C664300EF3D28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A71216D215C664300EF3D28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A712186215C664300EF3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A712187215C664300EF3D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A712189215C664300EF3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB7ACT6LNM;
+				INFOPLIST_FILE = "Las Chelas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diplo.Las-Chelas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A71218A215C664300EF3D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB7ACT6LNM;
+				INFOPLIST_FILE = "Las Chelas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diplo.Las-Chelas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A71218C215C664300EF3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB7ACT6LNM;
+				INFOPLIST_FILE = "Las ChelasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diplo.Las-ChelasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Las Chelas.app/Las Chelas";
+			};
+			name = Debug;
+		};
+		3A71218D215C664300EF3D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB7ACT6LNM;
+				INFOPLIST_FILE = "Las ChelasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diplo.Las-ChelasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Las Chelas.app/Las Chelas";
+			};
+			name = Release;
+		};
+		3A71218F215C664300EF3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB7ACT6LNM;
+				INFOPLIST_FILE = "Las ChelasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diplo.Las-ChelasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Las Chelas";
+			};
+			name = Debug;
+		};
+		3A712190215C664300EF3D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XB7ACT6LNM;
+				INFOPLIST_FILE = "Las ChelasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diplo.Las-ChelasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Las Chelas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A712158215C664100EF3D28 /* Build configuration list for PBXProject "Las Chelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A712186215C664300EF3D28 /* Debug */,
+				3A712187215C664300EF3D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A712188215C664300EF3D28 /* Build configuration list for PBXNativeTarget "Las Chelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A712189215C664300EF3D28 /* Debug */,
+				3A71218A215C664300EF3D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A71218B215C664300EF3D28 /* Build configuration list for PBXNativeTarget "Las ChelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71218C215C664300EF3D28 /* Debug */,
+				3A71218D215C664300EF3D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A71218E215C664300EF3D28 /* Build configuration list for PBXNativeTarget "Las ChelasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A71218F215C664300EF3D28 /* Debug */,
+				3A712190215C664300EF3D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A712167215C664100EF3D28 /* Las_Chelas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A712168215C664100EF3D28 /* Las_Chelas.xcdatamodel */,
+			);
+			currentVersion = 3A712168215C664100EF3D28 /* Las_Chelas.xcdatamodel */;
+			path = Las_Chelas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A712155215C664100EF3D28 /* Project object */;
+}
