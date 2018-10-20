@@ -16,7 +16,6 @@
 		3A712179215C664300EF3D28 /* Las_ChelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A712178215C664300EF3D28 /* Las_ChelasTests.swift */; };
 		3A712184215C664300EF3D28 /* Las_ChelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A712183215C664300EF3D28 /* Las_ChelasUITests.swift */; };
 		660BD4DE217B769E00EC7B1B /* BeerTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660BD4DD217B769E00EC7B1B /* BeerTab.storyboard */; };
-		660BD4E1217B76BF00EC7B1B /* OrderTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660BD4DF217B76BF00EC7B1B /* OrderTab.storyboard */; };
 		660BD4E3217B76E200EC7B1B /* AccountTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660BD4E2217B76E200EC7B1B /* AccountTab.storyboard */; };
 		660BD4F0217B777100EC7B1B /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4EF217B777100EC7B1B /* BeerService.swift */; };
 		660BD4F3217B778000EC7B1B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F2217B778000EC7B1B /* Product.swift */; };
@@ -24,6 +23,8 @@
 		660BD4F7217B7FF800EC7B1B /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F6217B7FF800EC7B1B /* Variant.swift */; };
 		660BD4FD217BA16300EC7B1B /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4FC217BA16300EC7B1B /* Beer.swift */; };
 		660BD4FF217BA18800EC7B1B /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4FE217BA18800EC7B1B /* BeerCell.swift */; };
+		C461FC78217BACEC0088AAF9 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C461FC75217BACEC0088AAF9 /* OrderController.swift */; };
+		C461FC79217BACEC0088AAF9 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C461FC77217BACEC0088AAF9 /* Order.storyboard */; };
 		FC1A663C217B85C700828F51 /* DetailBeerST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1A663B217B85C700828F51 /* DetailBeerST.storyboard */; };
 		FC1A663E217B884500828F51 /* BeerDetailSBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A663D217B884500828F51 /* BeerDetailSBViewController.swift */; };
 		FC1A6640217B8C8200828F51 /* RatingStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A663F217B8C8200828F51 /* RatingStarView.swift */; };
@@ -63,7 +64,6 @@
 		3A712183215C664300EF3D28 /* Las_ChelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Las_ChelasUITests.swift; sourceTree = "<group>"; };
 		3A712185215C664300EF3D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660BD4DD217B769E00EC7B1B /* BeerTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BeerTab.storyboard; sourceTree = "<group>"; };
-		660BD4E0217B76BF00EC7B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Las Chelas/Base.lproj/OrderTab.storyboard"; sourceTree = "<group>"; };
 		660BD4E2217B76E200EC7B1B /* AccountTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AccountTab.storyboard; sourceTree = "<group>"; };
 		660BD4EF217B777100EC7B1B /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
 		660BD4F2217B778000EC7B1B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -71,6 +71,8 @@
 		660BD4F6217B7FF800EC7B1B /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
 		660BD4FC217BA16300EC7B1B /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		660BD4FE217BA18800EC7B1B /* BeerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
+		C461FC75217BACEC0088AAF9 /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		C461FC77217BACEC0088AAF9 /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
 		FC1A663B217B85C700828F51 /* DetailBeerST.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailBeerST.storyboard; sourceTree = "<group>"; };
 		FC1A663D217B884500828F51 /* BeerDetailSBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailSBViewController.swift; sourceTree = "<group>"; };
 		FC1A663F217B8C8200828F51 /* RatingStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStarView.swift; sourceTree = "<group>"; };
@@ -125,10 +127,10 @@
 		3A71215F215C664100EF3D28 /* Las Chelas */ = {
 			isa = PBXGroup;
 			children = (
+				C461FC73217BACEC0088AAF9 /* OrderTab */,
 				660BD4EE217B776000EC7B1B /* Services */,
 				660BD4ED217B775C00EC7B1B /* Model */,
 				660BD4EA217B772C00EC7B1B /* BeerTab */,
-				660BD4E6217B770700EC7B1B /* OrderTab */,
 				660BD4E4217B76E800EC7B1B /* AccountTab */,
 				3A712160215C664100EF3D28 /* AppDelegate.swift */,
 				3A712164215C664100EF3D28 /* Main.storyboard */,
@@ -173,30 +175,6 @@
 				660BD4E2217B76E200EC7B1B /* AccountTab.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		660BD4E6217B770700EC7B1B /* OrderTab */ = {
-			isa = PBXGroup;
-			children = (
-				660BD4E8217B771B00EC7B1B /* Controller */,
-				660BD4E7217B771500EC7B1B /* View */,
-			);
-			path = OrderTab;
-			sourceTree = "<group>";
-		};
-		660BD4E7217B771500EC7B1B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				660BD4DF217B76BF00EC7B1B /* OrderTab.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		660BD4E8217B771B00EC7B1B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		660BD4E9217B772600EC7B1B /* Controller */ = {
@@ -253,6 +231,31 @@
 				660BD4EF217B777100EC7B1B /* BeerService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		C461FC73217BACEC0088AAF9 /* OrderTab */ = {
+			isa = PBXGroup;
+			children = (
+				C461FC74217BACEC0088AAF9 /* Controller */,
+				C461FC76217BACEC0088AAF9 /* View */,
+			);
+			path = OrderTab;
+			sourceTree = "<group>";
+		};
+		C461FC74217BACEC0088AAF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C461FC75217BACEC0088AAF9 /* OrderController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C461FC76217BACEC0088AAF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C461FC77217BACEC0088AAF9 /* Order.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,10 +363,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				660BD4E3217B76E200EC7B1B /* AccountTab.storyboard in Resources */,
-				660BD4E1217B76BF00EC7B1B /* OrderTab.storyboard in Resources */,
 				FC1A663C217B85C700828F51 /* DetailBeerST.storyboard in Resources */,
 				3A71216E215C664300EF3D28 /* LaunchScreen.storyboard in Resources */,
 				3A71216B215C664300EF3D28 /* Assets.xcassets in Resources */,
+				C461FC79217BACEC0088AAF9 /* Order.storyboard in Resources */,
 				660BD4DE217B769E00EC7B1B /* BeerTab.storyboard in Resources */,
 				3A712166215C664100EF3D28 /* Main.storyboard in Resources */,
 			);
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C461FC78217BACEC0088AAF9 /* OrderController.swift in Sources */,
 				FC1A663E217B884500828F51 /* BeerDetailSBViewController.swift in Sources */,
 				3A712163215C664100EF3D28 /* BeerViewController.swift in Sources */,
 				3A712161215C664100EF3D28 /* AppDelegate.swift in Sources */,
@@ -451,14 +455,6 @@
 				3A71216D215C664300EF3D28 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		660BD4DF217B76BF00EC7B1B /* OrderTab.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				660BD4E0217B76BF00EC7B1B /* Base */,
-			);
-			name = OrderTab.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
