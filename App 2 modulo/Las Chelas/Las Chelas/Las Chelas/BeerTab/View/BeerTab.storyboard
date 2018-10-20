@@ -57,6 +57,7 @@
                                 <connections>
                                     <outlet property="imageView" destination="U7q-Qo-h2t" id="sj4-uR-qdJ"/>
                                     <outlet property="nameLabel" destination="na8-5h-rdS" id="D5j-nM-2QW"/>
+                                    <segue destination="wgH-IJ-cqU" kind="show" id="6wd-bt-bkL"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -71,10 +72,17 @@
             </objects>
             <point key="canvasLocation" x="3535.1999999999998" y="-99.400299850074973"/>
         </scene>
+        <!--DetailBeerST-->
+        <scene sceneID="7Uk-UY-Yat">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DetailBeerST" id="wgH-IJ-cqU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgY-Wd-Vmg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4138" y="-145"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="XzK-VT-pOe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UdB-eh-IFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fko-4L-UYh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CiY-hM-72w">
@@ -86,6 +94,7 @@
                         <segue destination="AD9-6V-Bre" kind="relationship" relationship="rootViewController" id="Cuj-TS-UHf"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdB-eh-IFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2652" y="-99"/>
         </scene>

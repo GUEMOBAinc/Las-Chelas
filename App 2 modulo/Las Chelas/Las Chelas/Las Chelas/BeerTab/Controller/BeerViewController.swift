@@ -32,12 +32,18 @@ class BeerViewController: UICollectionViewController {
         cell.imageView.image = beer.image
         return cell
     }
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        /*
-        let detailVC = BeerDetailSBViewController()
-        detailVC.beer = beers[indexPath.row]
-        navigationController?.pushViewController(detailVC, animated: true)
-         */
+    func showDetail(beer: Beer) {
+        //let detailVC = BeerDetailSBViewController()
+        //detailVC.beer = beer
+        //present(detailVC, animated: true, completion: nil)
+        //navigationController?.pushViewController(detailVC, animated: true)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC = segue.destination as! BeerDetailSBViewController
+        let cell = sender as! BeerCell
+        let index = collectionView?.indexPath(for: cell)
+        detailVC.beer = beers[(index?.row)!]
+        
     }
 }
 
