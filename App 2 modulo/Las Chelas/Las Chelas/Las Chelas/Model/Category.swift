@@ -1,5 +1,5 @@
 //
-//  Beer.swift
+//  Category.swift
 //  Las Chelas
 //
 //  Created by Gomez Luis on 20/10/18.
@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+enum Category: Int, Codable{
+    case drink = 0
+    case food
+}
