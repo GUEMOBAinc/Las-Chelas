@@ -22,6 +22,8 @@
 		660BD4F3217B778000EC7B1B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F2217B778000EC7B1B /* Product.swift */; };
 		660BD4F5217B7FDE00EC7B1B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F4217B7FDE00EC7B1B /* Category.swift */; };
 		660BD4F7217B7FF800EC7B1B /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F6217B7FF800EC7B1B /* Variant.swift */; };
+		660BD4F9217B881F00EC7B1B /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F8217B881F00EC7B1B /* Beer.swift */; };
+		660BD4FB217B8A5600EC7B1B /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4FA217B8A5600EC7B1B /* BeerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		660BD4F2217B778000EC7B1B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		660BD4F4217B7FDE00EC7B1B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		660BD4F6217B7FF800EC7B1B /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		660BD4F8217B881F00EC7B1B /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		660BD4FA217B8A5600EC7B1B /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				660BD4DD217B769E00EC7B1B /* BeerTab.storyboard */,
+				660BD4FA217B8A5600EC7B1B /* BeerCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				660BD4F2217B778000EC7B1B /* Product.swift */,
 				660BD4F4217B7FDE00EC7B1B /* Category.swift */,
 				660BD4F6217B7FF800EC7B1B /* Variant.swift */,
+				660BD4F8217B881F00EC7B1B /* Beer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -374,8 +380,10 @@
 				3A712163215C664100EF3D28 /* BeerViewController.swift in Sources */,
 				3A712161215C664100EF3D28 /* AppDelegate.swift in Sources */,
 				660BD4F3217B778000EC7B1B /* Product.swift in Sources */,
+				660BD4F9217B881F00EC7B1B /* Beer.swift in Sources */,
 				3A712169215C664100EF3D28 /* Las_Chelas.xcdatamodeld in Sources */,
 				660BD4F0217B777100EC7B1B /* BeerService.swift in Sources */,
+				660BD4FB217B8A5600EC7B1B /* BeerCell.swift in Sources */,
 				660BD4F7217B7FF800EC7B1B /* Variant.swift in Sources */,
 				660BD4F5217B7FDE00EC7B1B /* Category.swift in Sources */,
 			);
