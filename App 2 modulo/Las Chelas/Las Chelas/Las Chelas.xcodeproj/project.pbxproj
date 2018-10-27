@@ -29,6 +29,7 @@
 		FC1A6646217BAFF300828F51 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A6645217BAFF300828F51 /* Beer.swift */; };
 		FC1A664C217BB02600828F51 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A6649217BB02500828F51 /* OrderController.swift */; };
 		FC1A664D217BB02600828F51 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1A664B217BB02500828F51 /* Order.storyboard */; };
+		FC2C455E2183E9EB00CEDC84 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C455D2183E9EB00CEDC84 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		FC1A6645217BAFF300828F51 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		FC1A6649217BB02500828F51 /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
 		FC1A664B217BB02500828F51 /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		FC2C455D2183E9EB00CEDC84 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				660BD4F4217B7FDE00EC7B1B /* Category.swift */,
 				FC1A6645217BAFF300828F51 /* Beer.swift */,
 				660BD4F6217B7FF800EC7B1B /* Variant.swift */,
+				FC2C455D2183E9EB00CEDC84 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				3A712161215C664100EF3D28 /* AppDelegate.swift in Sources */,
 				FC1A6640217B8C8200828F51 /* RatingStarView.swift in Sources */,
 				660BD4F3217B778000EC7B1B /* Product.swift in Sources */,
+				FC2C455E2183E9EB00CEDC84 /* Order.swift in Sources */,
 				3A712169215C664100EF3D28 /* Las_Chelas.xcdatamodeld in Sources */,
 				FC1A6642217B9EB800828F51 /* BeerDetailCell.swift in Sources */,
 				FC1A6646217BAFF300828F51 /* Beer.swift in Sources */,
