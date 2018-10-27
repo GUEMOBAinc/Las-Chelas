@@ -21,6 +21,8 @@
 		660BD4F3217B778000EC7B1B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F2217B778000EC7B1B /* Product.swift */; };
 		660BD4F5217B7FDE00EC7B1B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F4217B7FDE00EC7B1B /* Category.swift */; };
 		660BD4F7217B7FF800EC7B1B /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BD4F6217B7FF800EC7B1B /* Variant.swift */; };
+		B869DD332183F07800FA8344 /* AccountControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869DD322183F07800FA8344 /* AccountControllerTableViewController.swift */; };
+		B869DD352183F89D00FA8344 /* HistorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B869DD342183F89D00FA8344 /* HistorialController.swift */; };
 		FC1A663C217B85C700828F51 /* DetailBeerST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1A663B217B85C700828F51 /* DetailBeerST.storyboard */; };
 		FC1A663E217B884500828F51 /* BeerDetailSBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A663D217B884500828F51 /* BeerDetailSBViewController.swift */; };
 		FC1A6640217B8C8200828F51 /* RatingStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A663F217B8C8200828F51 /* RatingStarView.swift */; };
@@ -69,6 +71,8 @@
 		660BD4F2217B778000EC7B1B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		660BD4F4217B7FDE00EC7B1B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		660BD4F6217B7FF800EC7B1B /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		B869DD322183F07800FA8344 /* AccountControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountControllerTableViewController.swift; sourceTree = "<group>"; };
+		B869DD342183F89D00FA8344 /* HistorialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialController.swift; sourceTree = "<group>"; };
 		FC1A663B217B85C700828F51 /* DetailBeerST.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailBeerST.storyboard; sourceTree = "<group>"; };
 		FC1A663D217B884500828F51 /* BeerDetailSBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailSBViewController.swift; sourceTree = "<group>"; };
 		FC1A663F217B8C8200828F51 /* RatingStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStarView.swift; sourceTree = "<group>"; };
@@ -163,7 +167,7 @@
 		660BD4E4217B76E800EC7B1B /* AccountTab */ = {
 			isa = PBXGroup;
 			children = (
-				660BD4E9217B772600EC7B1B /* Controller */,
+				B869DD2F2183EF9B00FA8344 /* Controller */,
 				660BD4E5217B76FC00EC7B1B /* View */,
 			);
 			path = AccountTab;
@@ -175,13 +179,6 @@
 				660BD4E2217B76E200EC7B1B /* AccountTab.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		660BD4E9217B772600EC7B1B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		660BD4EA217B772C00EC7B1B /* BeerTab */ = {
@@ -231,6 +228,15 @@
 				660BD4EF217B777100EC7B1B /* BeerService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B869DD2F2183EF9B00FA8344 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B869DD322183F07800FA8344 /* AccountControllerTableViewController.swift */,
+				B869DD342183F89D00FA8344 /* HistorialController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		FC1A6647217BB02500828F51 /* OrderTab */ = {
@@ -397,6 +403,7 @@
 				FC1A663E217B884500828F51 /* BeerDetailSBViewController.swift in Sources */,
 				3A712163215C664100EF3D28 /* BeerViewController.swift in Sources */,
 				3A712161215C664100EF3D28 /* AppDelegate.swift in Sources */,
+				B869DD352183F89D00FA8344 /* HistorialController.swift in Sources */,
 				FC1A6640217B8C8200828F51 /* RatingStarView.swift in Sources */,
 				660BD4F3217B778000EC7B1B /* Product.swift in Sources */,
 				3A712169215C664100EF3D28 /* Las_Chelas.xcdatamodeld in Sources */,
@@ -406,6 +413,7 @@
 				660BD4F0217B777100EC7B1B /* BeerService.swift in Sources */,
 				660BD4F7217B7FF800EC7B1B /* Variant.swift in Sources */,
 				660BD4F5217B7FDE00EC7B1B /* Category.swift in Sources */,
+				B869DD332183F07800FA8344 /* AccountControllerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
