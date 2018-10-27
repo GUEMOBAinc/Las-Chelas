@@ -28,7 +28,7 @@ class BeerDetailSBViewController: UIViewController, UITableViewDelegate, UITable
         beerImage.image = beer?.image
         countryBeerLabel.text = beer?.country
         if let abv = beer?.abv{
-          porcentageOfAlcohol.text = String(abv)
+          porcentageOfAlcohol.text = String(abv) + "%"
         }
         // Do any additional setup after loading the view.
     }
@@ -86,9 +86,25 @@ class BeerDetailSBViewController: UIViewController, UITableViewDelegate, UITable
     }
 
     func updateLabel(){
-        beerCounterLabel.text = "Cerveza: \(orders.count)"
+        var total:Double = 0
+        for order in orders{
+            total += order.cost
+        }
+        beerCounterLabel.text = "Cerveza: \(orders.count)    Total: $\(total)"
+    }
+   
+    @IBAction func ready(_ sender: Any) {
+        StorageService.shared.saveOrders(orders)
+        updateBadge()
+        navigationController?.popViewController(animated: true)
+    }
+    func updateBadge(){
+        let tabBarOrder = navigationController?.tabBarController?.tabBar.items![1]
+        let orders = StorageService.shared.loadOrders()
+        if let orders = orders{
+            let number = orders.filter({ $0.status == .ready }).count
+            tabBarOrder?.badgeValue = String(number)
+        }
     }
     
-   
-   
 }

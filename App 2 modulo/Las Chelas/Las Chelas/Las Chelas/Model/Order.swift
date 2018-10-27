@@ -12,16 +12,16 @@ struct Order: Codable{
     let name: String
     let country: String
     let abv: Double
-    let status: Status
+    var status: Status
     let volume: String
     let cost: Double
 }
 
 enum Status: Int, Codable {
-    case ready = 0
+    case pick = 0
+    case ready
     case waiting
     case process
-    case pick
     
     func description() -> String {
         switch self {

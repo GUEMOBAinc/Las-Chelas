@@ -11,12 +11,22 @@ import UIKit
 class BeerViewController: UICollectionViewController {
 
     var beers = [Beer]()
-        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         getAllBeers()
+        navigationController?.tabBarItem.image = UIImage(named: "iconBeer")?.withRenderingMode(.alwaysOriginal)
+        let tabBarOrder = navigationController?.tabBarController?.tabBar.items![1]
+        tabBarOrder?.image = UIImage(named: "iconOrder")?.withRenderingMode(.alwaysOriginal)
+        navigationController?.tabBarController?.tabBar.items![2].image = UIImage(named: "iconAccount")?.withRenderingMode(.alwaysOriginal)
+        let orders = StorageService.shared.loadOrders()
+        if let orders = orders{
+            let number = orders.filter({ $0.status == .ready }).count
+            tabBarOrder?.badgeValue = String(number)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
+
     func getAllBeers(){
         BeerService.getAll { [weak self] (beers) in
             self?.beers = beers
