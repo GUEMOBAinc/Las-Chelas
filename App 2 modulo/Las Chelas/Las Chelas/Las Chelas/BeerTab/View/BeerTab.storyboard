@@ -26,7 +26,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="BeerCell" reuseIdentifier="BeerCell" id="020-lg-sH2" customClass="BeerCell" customModule="Las_Chelas" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" restorationIdentifier="BeerCell" reuseIdentifier="BeerCell" id="020-lg-sH2" customClass="BeerCell" customModule="Las_Chelas" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="129" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -41,7 +41,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="na8-5h-rdS">
-                                            <rect key="frame" x="42" y="95" width="46" height="17"/>
+                                            <rect key="frame" x="42" y="95" width="46" height="20.5"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" name="blackBeer"/>
                                             <nil key="highlightedColor"/>
@@ -113,7 +113,7 @@
             <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="grayBeer">
-            <color red="0.92500001192092896" green="0.9100000262260437" blue="0.85100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.92549019607843142" green="0.90980392156862744" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="whiteBeer">
             <color red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

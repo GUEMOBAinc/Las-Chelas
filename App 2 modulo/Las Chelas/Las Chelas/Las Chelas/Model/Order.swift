@@ -12,7 +12,7 @@ struct Order: Codable{
     let name: String
     let country: String
     let abv: Double
-    let status: Status
+    var status: Status
     let volume: String
     let cost: Double
 }

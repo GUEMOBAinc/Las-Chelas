@@ -42,4 +42,14 @@ class StorageService {
         let propertyListDecoder = PropertyListDecoder()
         return try? propertyListDecoder.decode(Array<Order>.self,from: codeOrders)
     }
+    func updateOrders(_ orders: [Order]){
+        let propertyListEncoder = PropertyListEncoder()
+        let codeOrders = try? propertyListEncoder.encode(orders)
+        do {
+            try codeOrders?.write(to: ArchiveURL, options: .noFileProtection)
+            print("save succeed")
+        } catch {
+            print("save failed")
+        }
+    }
 }

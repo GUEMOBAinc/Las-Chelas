@@ -70,7 +70,20 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Ordenes" id="um8-W5-8Eo"/>
+                    <navigationItem key="navigationItem" title="Ordenes" id="um8-W5-8Eo">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="bIc-lt-9nX">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="V0F-KJ-QJX">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ordenar">
+                                    <color key="titleColor" name="blackBeer"/>
+                                </state>
+                                <connections>
+                                    <action selector="order:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fi0-i7-jcD"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="a83-1L-dW7" id="gvP-cd-r4I"/>
                     </connections>
@@ -104,6 +117,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="blackBeer">
+            <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="blackBeer">
             <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

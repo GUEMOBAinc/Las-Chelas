@@ -28,12 +28,10 @@ class OrderController: UIViewController {
         super.viewDidAppear(animated)
         orders = StorageService.shared.loadOrders()
         sortData()
-        tableView.reloadData()
+        
     }
     
     func sortData() {
-        
-        
         
         orders = orders?.sorted(by: { $0.status.rawValue > $1.status.rawValue })
         guard let orders = orders else {return}
@@ -41,7 +39,19 @@ class OrderController: UIViewController {
         numOfRows[Status.waiting.rawValue] = orders.filter({ $0.status == .waiting }).count
         numOfRows[Status.process.rawValue] = orders.filter({ $0.status == .process }).count
         numOfRows[Status.pick.rawValue] = orders.filter({ $0.status == .pick }).count
+        tableView.reloadData()
     
+    }
+    
+    @IBAction func order(_ sender: Any) {
+        guard let orders = orders else {return}
+        for (index,order) in orders.enumerated(){
+            if order.status == .ready{
+                self.orders![index].status = .waiting
+            }
+        }
+        StorageService.shared.updateOrders(orders)
+        sortData()
     }
     
 }
