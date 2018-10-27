@@ -18,10 +18,10 @@ struct Order: Codable{
 }
 
 enum Status: Int, Codable {
-    case ready = 0
+    case pick = 0
+    case ready
     case waiting
     case process
-    case pick
     
     func description() -> String {
         switch self {
