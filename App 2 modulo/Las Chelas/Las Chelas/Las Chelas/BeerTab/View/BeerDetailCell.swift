@@ -15,9 +15,14 @@ class BeerDetailCell: UITableViewCell {
     @IBOutlet weak var priceLabel: UILabel!
     
     @IBOutlet weak var amountOfBeerLabel: UILabel!
-    
+    var amount = 0{
+        didSet{
+            updateAmountLabel()
+        }
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
+        updateAmountLabel()
         // Initialization code
     }
 
@@ -26,5 +31,7 @@ class BeerDetailCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    func updateAmountLabel(){
+        amountOfBeerLabel.text = String(amount)
+    }
 }
