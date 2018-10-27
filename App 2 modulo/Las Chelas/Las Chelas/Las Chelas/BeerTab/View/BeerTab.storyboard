@@ -7,17 +7,18 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Beer View Controller-->
+        <!--Cervezas-->
         <scene sceneID="GMG-LK-9XI">
             <objects>
                 <collectionViewController id="AD9-6V-Bre" customClass="BeerViewController" customModule="Las_Chelas" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="pSK-8K-oFR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="whiteBeer"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yKS-dX-ZSc">
                             <size key="itemSize" width="100" height="121"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -40,9 +41,9 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="na8-5h-rdS">
-                                            <rect key="frame" x="42" y="95" width="45" height="17"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
+                                            <rect key="frame" x="42" y="95" width="46" height="17"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                            <color key="textColor" name="blackBeer"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -67,7 +68,7 @@
                             <outlet property="delegate" destination="AD9-6V-Bre" id="bTs-c2-bcg"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="muu-Hp-zYD"/>
+                    <navigationItem key="navigationItem" title="Cervezas" id="muu-Hp-zYD"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwE-an-niy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,14 +82,21 @@
             </objects>
             <point key="canvasLocation" x="4138" y="-145"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Cerveza-->
         <scene sceneID="XzK-VT-pOe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fko-4L-UYh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Cerveza" id="OZN-GC-nZy"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CiY-hM-72w">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="CiY-hM-72w">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="grayBeer"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" name="blackBeer"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -100,4 +108,16 @@
             <point key="canvasLocation" x="2652" y="-99"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="blackBeer">
+            <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayBeer">
+            <color red="0.92500001192092896" green="0.9100000262260437" blue="0.85100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteBeer">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" name="blackBeer"/>
 </document>

@@ -15,6 +15,8 @@ class BeerViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getAllBeers()
+        navigationController?.tabBarItem.image = UIImage(named: "iconBeer")?.withRenderingMode(.alwaysOriginal)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     func getAllBeers(){
