@@ -15,6 +15,10 @@ class BeerViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getAllBeers()
+        setTabConfig()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    func setTabConfig(){
         navigationController?.tabBarItem.image = UIImage(named: "iconBeer")?.withRenderingMode(.alwaysOriginal)
         let tabBarOrder = navigationController?.tabBarController?.tabBar.items![1]
         tabBarOrder?.image = UIImage(named: "iconOrder")?.withRenderingMode(.alwaysOriginal)
@@ -24,7 +28,6 @@ class BeerViewController: UICollectionViewController {
             let number = orders.filter({ $0.status == .ready }).count
             tabBarOrder?.badgeValue = String(number)
         }
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     func getAllBeers(){
@@ -42,12 +45,7 @@ class BeerViewController: UICollectionViewController {
         cell.imageView.image = beer.image
         return cell
     }
-    func showDetail(beer: Beer) {
-        //let detailVC = BeerDetailSBViewController()
-        //detailVC.beer = beer
-        //present(detailVC, animated: true, completion: nil)
-        //navigationController?.pushViewController(detailVC, animated: true)
-    }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let detailVC = segue.destination as! BeerDetailSBViewController
         let cell = sender as! BeerCell
