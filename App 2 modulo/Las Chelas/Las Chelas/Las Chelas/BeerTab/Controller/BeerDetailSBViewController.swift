@@ -88,7 +88,10 @@ class BeerDetailSBViewController: UIViewController, UITableViewDelegate, UITable
     func updateLabel(){
         beerCounterLabel.text = "Cerveza: \(orders.count)"
     }
+   
+    @IBAction func ready(_ sender: Any) {
+        StorageService.shared.saveOrders(orders)
+        navigationController?.popViewController(animated: true)
+    }
     
-   
-   
 }

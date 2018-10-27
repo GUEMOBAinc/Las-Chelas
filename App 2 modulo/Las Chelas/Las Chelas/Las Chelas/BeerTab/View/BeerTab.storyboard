@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yKS-dX-ZSc">
-                            <size key="itemSize" width="129" height="121"/>
+                            <size key="itemSize" width="100" height="121"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -54,6 +54,7 @@
                                     <constraint firstItem="na8-5h-rdS" firstAttribute="centerX" secondItem="020-lg-sH2" secondAttribute="centerX" id="QKA-UD-Nii"/>
                                     <constraint firstItem="U7q-Qo-h2t" firstAttribute="centerX" secondItem="020-lg-sH2" secondAttribute="centerX" id="Yjm-rP-3CC"/>
                                 </constraints>
+                                <size key="customSize" width="129" height="121"/>
                                 <connections>
                                     <outlet property="imageView" destination="U7q-Qo-h2t" id="sj4-uR-qdJ"/>
                                     <outlet property="nameLabel" destination="na8-5h-rdS" id="D5j-nM-2QW"/>
