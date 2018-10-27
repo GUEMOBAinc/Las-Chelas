@@ -41,8 +41,7 @@ class OrderController: UIViewController {
         numOfRows[Status.waiting.rawValue] = orders.filter({ $0.status == .waiting }).count
         numOfRows[Status.process.rawValue] = orders.filter({ $0.status == .process }).count
         numOfRows[Status.pick.rawValue] = orders.filter({ $0.status == .pick }).count
-        
-        
+    
     }
     
 }
@@ -73,8 +72,7 @@ extension OrderController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.width, height: SectionHeaderHeight))
-        view.backgroundColor = UIColor(red: 253.0/255.0, green: 240.0/255.0, blue: 196.0/255.0, alpha: 1)
-        //view.backgroundColor = UIColor(cgColor:)
+        view.backgroundColor = UIColor(named: "grayBeer")
         
         let label = UILabel(frame: CGRect(x: 15, y: 0, width: tableView.bounds.width - 30, height: SectionHeaderHeight))
         label.font = UIFont.boldSystemFont(ofSize: 15)
