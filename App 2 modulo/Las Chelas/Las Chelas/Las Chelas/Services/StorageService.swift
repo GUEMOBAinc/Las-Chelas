@@ -23,7 +23,7 @@ class StorageService {
             let codeOrders = try? propertyListEncoder.encode(allOrders)
             do {
                 try codeOrders?.write(to: ArchiveURL, options: .noFileProtection)
-                print("save succed")
+                print("save succeed")
             } catch {
                 print("save failed")
             }
@@ -31,7 +31,7 @@ class StorageService {
             let codeOrders = try? propertyListEncoder.encode(orders)
             do {
                 try codeOrders?.write(to: ArchiveURL, options: .noFileProtection)
-                print("save succed")
+                print("save succeed")
             } catch {
                 print("save failed")
             }
@@ -42,4 +42,5 @@ class StorageService {
         let propertyListDecoder = PropertyListDecoder()
         return try? propertyListDecoder.decode(Array<Order>.self,from: codeOrders)
     }
+    func de
 }
