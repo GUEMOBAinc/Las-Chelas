@@ -8,18 +8,42 @@
 
 import UIKit
 
-class BeerViewController: UIViewController {
+class BeerViewController: UICollectionViewController {
 
+    var beers = [Beer]()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
+        getAllBeers()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func getAllBeers(){
+        BeerService.getAll { [weak self] (beers) in
+            self?.beers = beers
+        }
     }
-
-
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return beers.count
+    }
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BeerCell", for: indexPath) as! BeerCell
+        let beer = beers[indexPath.row]
+        cell.nameLabel.text = beer.name
+        cell.imageView.image = beer.image
+        return cell
+    }
+    func showDetail(beer: Beer) {
+        //let detailVC = BeerDetailSBViewController()
+        //detailVC.beer = beer
+        //present(detailVC, animated: true, completion: nil)
+        //navigationController?.pushViewController(detailVC, animated: true)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC = segue.destination as! BeerDetailSBViewController
+        let cell = sender as! BeerCell
+        let index = collectionView?.indexPath(for: cell)
+        detailVC.beer = beers[(index?.row)!]
+        
+    }
 }
 
