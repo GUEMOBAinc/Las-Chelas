@@ -30,6 +30,10 @@
 		FC1A664C217BB02600828F51 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A6649217BB02500828F51 /* OrderController.swift */; };
 		FC1A664D217BB02600828F51 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1A664B217BB02500828F51 /* Order.storyboard */; };
 		FC2C455E2183E9EB00CEDC84 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C455D2183E9EB00CEDC84 /* Order.swift */; };
+		FC31B6972184B37300CBAB3E /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31B6962184B37300CBAB3E /* Payment.storyboard */; };
+		FC31B6992184B6AF00CBAB3E /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31B6982184B6AF00CBAB3E /* PaymentViewController.swift */; };
+		FC31B69B2184B83000CBAB3E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31B69A2184B83000CBAB3E /* Session.swift */; };
+		FC31B69E2184B99100CBAB3E /* BeerMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31B69D2184B99100CBAB3E /* BeerMembers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		FC1A6649217BB02500828F51 /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
 		FC1A664B217BB02500828F51 /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
 		FC2C455D2183E9EB00CEDC84 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FC31B6962184B37300CBAB3E /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		FC31B6982184B6AF00CBAB3E /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		FC31B69A2184B83000CBAB3E /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FC31B69D2184B99100CBAB3E /* BeerMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMembers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 		3A712154215C664100EF3D28 = {
 			isa = PBXGroup;
 			children = (
+				660BD4E4217B76E800EC7B1B /* AccountTab */,
 				3A71215F215C664100EF3D28 /* Las Chelas */,
 				3A712177215C664300EF3D28 /* Las ChelasTests */,
 				3A712182215C664300EF3D28 /* Las ChelasUITests */,
@@ -133,7 +142,7 @@
 				FC1A6647217BB02500828F51 /* OrderTab */,
 				660BD4ED217B775C00EC7B1B /* Model */,
 				660BD4EA217B772C00EC7B1B /* BeerTab */,
-				660BD4E4217B76E800EC7B1B /* AccountTab */,
+				FC31B6952184B30A00CBAB3E /* PaymentBeer */,
 				3A712160215C664100EF3D28 /* AppDelegate.swift */,
 				3A712164215C664100EF3D28 /* Main.storyboard */,
 				3A71216A215C664300EF3D28 /* Assets.xcassets */,
@@ -261,6 +270,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FC31B6952184B30A00CBAB3E /* PaymentBeer */ = {
+			isa = PBXGroup;
+			children = (
+				FC31B69C2184B97400CBAB3E /* Models */,
+				FC31B6962184B37300CBAB3E /* Payment.storyboard */,
+				FC31B6982184B6AF00CBAB3E /* PaymentViewController.swift */,
+			);
+			path = PaymentBeer;
+			sourceTree = "<group>";
+		};
+		FC31B69C2184B97400CBAB3E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC31B69A2184B83000CBAB3E /* Session.swift */,
+				FC31B69D2184B99100CBAB3E /* BeerMembers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +398,7 @@
 				3A71216E215C664300EF3D28 /* LaunchScreen.storyboard in Resources */,
 				3A71216B215C664300EF3D28 /* Assets.xcassets in Resources */,
 				FC1A664D217BB02600828F51 /* Order.storyboard in Resources */,
+				FC31B6972184B37300CBAB3E /* Payment.storyboard in Resources */,
 				660BD4DE217B769E00EC7B1B /* BeerTab.storyboard in Resources */,
 				3A712166215C664100EF3D28 /* Main.storyboard in Resources */,
 			);
@@ -396,6 +425,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC31B69E2184B99100CBAB3E /* BeerMembers.swift in Sources */,
 				FC1A664C217BB02600828F51 /* OrderController.swift in Sources */,
 				FC1A663E217B884500828F51 /* BeerDetailSBViewController.swift in Sources */,
 				3A712163215C664100EF3D28 /* BeerViewController.swift in Sources */,
@@ -403,10 +433,12 @@
 				FC1A6640217B8C8200828F51 /* RatingStarView.swift in Sources */,
 				660BD4F3217B778000EC7B1B /* Product.swift in Sources */,
 				FC2C455E2183E9EB00CEDC84 /* Order.swift in Sources */,
+				FC31B6992184B6AF00CBAB3E /* PaymentViewController.swift in Sources */,
 				3A712169215C664100EF3D28 /* Las_Chelas.xcdatamodeld in Sources */,
 				FC1A6642217B9EB800828F51 /* BeerDetailCell.swift in Sources */,
 				FC1A6646217BAFF300828F51 /* Beer.swift in Sources */,
 				FC1A6644217BAFCC00828F51 /* BeerCell.swift in Sources */,
+				FC31B69B2184B83000CBAB3E /* Session.swift in Sources */,
 				660BD4F0217B777100EC7B1B /* BeerService.swift in Sources */,
 				660BD4F7217B7FF800EC7B1B /* Variant.swift in Sources */,
 				660BD4F5217B7FDE00EC7B1B /* Category.swift in Sources */,
