@@ -120,9 +120,6 @@
         <namedColor name="blackBeer">
             <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="blackBeer">
-            <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="grayBeer">
             <color red="0.92549019607843142" green="0.90980392156862744" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -20,8 +20,8 @@ class BeerService {
         let beer3 = Beer(name: "Indio", image: #imageLiteral(resourceName: "indio"), prices: [price1,price2,price3], country: "México", abv: 6.8)
         let beer4 = Beer(name: "Becks", image: #imageLiteral(resourceName: "becks"), prices: [price1,price4], country: "Alemania", abv: 5.0)
         let beer5 = Beer(name: "Presidente", image: #imageLiteral(resourceName: "presidente"), prices: [price1,price2,price3], country: "República Dominica", abv: 4.0)
-        let beer6 = Beer(name: "Partito", image: #imageLiteral(resourceName: "patito"), prices: [price2,price3], country: "México", abv: 4.3)
-        let beer7 = Beer(name: "Budweiser", image: #imageLiteral(resourceName: "corona"), prices: [price4], country: "Checoslovaquia", abv: 8.0)
+        let beer6 = Beer(name: "Patito", image: #imageLiteral(resourceName: "patito"), prices: [price2,price3], country: "México", abv: 4.3)
+        let beer7 = Beer(name: "Budweiser", image: #imageLiteral(resourceName: "budweiser"), prices: [price4], country: "Checoslovaquia", abv: 8.0)
 
         
         let beers = [beer1, beer2, beer3, beer4, beer5, beer6, beer7]
