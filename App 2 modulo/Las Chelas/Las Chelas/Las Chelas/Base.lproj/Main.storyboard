@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,6 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="blackBeer"/>
+                        <color key="selectedImageTintColor" name="grayBeer"/>
                     </tabBar>
                     <connections>
                         <segue destination="Yg8-sQ-amr" kind="relationship" relationship="viewControllers" id="xbm-fq-blx"/>
@@ -60,4 +63,12 @@
             <point key="canvasLocation" x="1019" y="421"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="blackBeer">
+            <color red="0.22400000691413879" green="0.24300000071525574" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayBeer">
+            <color red="0.92500001192092896" green="0.9100000262260437" blue="0.85100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
