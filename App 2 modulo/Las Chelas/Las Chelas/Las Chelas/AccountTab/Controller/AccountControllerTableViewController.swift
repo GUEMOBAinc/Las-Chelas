@@ -12,6 +12,7 @@ class AccountControllerTableViewController: UITableViewController {
 
     @IBOutlet weak var labelHistorial: UILabel!
     @IBOutlet weak var labelPago: UILabel!
+    @IBOutlet weak var labelID: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
